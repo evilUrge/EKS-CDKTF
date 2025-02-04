@@ -1,0 +1,20 @@
+# IDE
+.history
+.idea
+.vscode
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+
+# Node
+node_modules/
+npm-debug.log
+
+# typescript
+build/

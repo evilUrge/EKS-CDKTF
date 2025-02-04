@@ -1,0 +1,19 @@
+{
+  "name": "demo-service",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./build",
+    "test": "NODE_OPTIONS=--experimental-vm-modules $(yarn bin jest)"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript-core": "0.1.0"
+  }
+}

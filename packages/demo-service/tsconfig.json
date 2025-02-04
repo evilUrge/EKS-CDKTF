@@ -1,0 +1,6 @@
+{
+  "extends": "typescript-core/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node22/tsconfig"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "exactOptionalPropertyTypes": false,
+    "outDir": "build"
+  }
+}
