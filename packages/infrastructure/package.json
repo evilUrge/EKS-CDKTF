@@ -1,19 +1,21 @@
 {
-  "name": "@demo/service",
-  "type": "module",
+  "name": "infrastructure",
+  "version": "1.0.0",
   "license": "UNLICENSED",
-  "private": true,
-  "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf ./build",
+    "cdk": "$(yarn bin cdk)",
     "test": "NODE_OPTIONS=--experimental-vm-modules $(yarn bin jest)"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "aws-cdk": "^2.177.0",
+    "aws-cdk-lib": "^2.177.0",
+    "constructs": "^10.4.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.0",
+    "esbuild": "0",
     "typescript-core": "0.1.0"
   }
 }

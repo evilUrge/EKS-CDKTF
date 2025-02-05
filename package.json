@@ -1,5 +1,6 @@
 {
   "name": "EKS-CDKTF",
+  "author": "Gilad Maoz<gilad@maoz.dev>",
   "private": true,
   "type": "module",
   "workspaces": {

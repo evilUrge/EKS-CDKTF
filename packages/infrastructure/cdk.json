@@ -1,0 +1,21 @@
+{
+  "app": "NODE_OPTIONS=\"--loader ts-node/esm\" $(yarn bin ts-node) --prefer-ts-exts bin/warden-data.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "yarn.lock",
+      "node_modules",
+      "test"
+    ]
+  },
+  "context": {
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": false
+  }
+}
