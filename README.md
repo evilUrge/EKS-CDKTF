@@ -57,6 +57,6 @@ To remove all resources created by this project:
 This project is licensed under the MIT License.
 
 ## TODO:
-  - [ ] Create a generic CDK construct for stack
+  - [X] Create a generic CDK construct for stack
   - [ ] Include terraform files
   - [ ] Include some jest tests

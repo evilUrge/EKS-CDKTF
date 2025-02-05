@@ -1,5 +1,5 @@
 {
-  "app": "NODE_OPTIONS=\"--loader ts-node/esm\" $(yarn bin ts-node) --prefer-ts-exts bin/warden-data.ts",
+  "app": "NODE_OPTIONS=\"--loader ts-node/esm\" $(yarn bin ts-node) --prefer-ts-exts bin/data.ts",
   "watch": {
     "include": ["**"],
     "exclude": [
